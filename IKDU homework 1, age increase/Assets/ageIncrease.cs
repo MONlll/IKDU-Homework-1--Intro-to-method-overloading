@@ -11,7 +11,6 @@ public class ageIncrease : MonoBehaviour
          Debug.Log("My current age is: 24");
         
         IncreaseAge(myAge);
-        
        
         IncreaseAge(myAge, 5); 
     }
@@ -19,6 +18,8 @@ public class ageIncrease : MonoBehaviour
     {
         currentAge += 1; 
         Debug.Log("My age next year is: " + currentAge);
+        currentAge += 1; 
+        Debug.Log("My age in 2 years is: " + currentAge);
     }
     void IncreaseAge(int currentAge, int yearsToAdd)
     {
